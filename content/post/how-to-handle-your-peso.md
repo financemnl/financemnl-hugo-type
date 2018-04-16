@@ -5,7 +5,7 @@ tags:
   - guide
   - wiki
 date: '2018-04-13'
-featureimage: img/uploads/books-924780_1920.jpg
+featureimage: /images/uploads/books-924780_1920.jpg
 ---
 # Introduction to handling your own money
 
@@ -17,8 +17,7 @@ This is meant as a step by step guide of how to prioritize and what to do with m
 
 <!--more-->
 
-## 
-Step 0: Budget, reduce expenses
+## Step 0: Budget, reduce expenses
 
 A fundamental of healthy personal finance is [budgeting](<>). The first step should then be to create a budget.
 
@@ -84,11 +83,13 @@ In all cases, you should make the minimum payments on all of your debts before p
 ### There are two main methods of paying down debt:
 
 #### In the **avalanche method**
+
 : Debts are paid down in order of interest rate, starting with the debt that carries the highest interest rate.
 
 This is the financially optimal method of paying down debt, and you will pay less money overall compared to the snowball method.
 
 #### The **snowball method**,
+
 : Popularized by Dave Ramsey, debts are paid down in order of balance size, starting with the smallest.
 
 Paying off small debts first may give you a psychological boost and improve one's cash flow situation, as paid off debts free up minimum payments. The downside is that larger loans (that may be at higher interest rates) are left untouched for longer, costing more in the long run.
