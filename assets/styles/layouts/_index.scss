@@ -1,13 +1,19 @@
 // Header text feature, background image provided by Renan Barco.
 .call-out {
-  @extend %padding-regular;
+  padding: 1.3%;
   display: inline-block;
   width: 100%;
   background-image: linear-gradient(to right top, #30c299, #5bce9c, #7bd9a0, #98e5a5, #b3f0ac);
   background-size: cover;
-  font-size: 1.1em;
+  font-size: 1.2em;
   text-align: center;
   color: $header-desc-text-color;
+}
+
+.call-out img {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .call-out p:last-child {

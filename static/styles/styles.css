@@ -753,15 +753,15 @@ img[align=right] {
       padding: 3% 3%; } }
 
 article,
-.comments, .feature-image .post-content, .call-out, .posts .post-teaser, .site-footer {
+.comments, .feature-image .post-content, .posts .post-teaser, .site-footer {
   padding: 5% 20%; }
   @media (max-width: 1000px) {
     article,
-    .comments, .feature-image .post-content, .call-out, .posts .post-teaser, .site-footer {
+    .comments, .feature-image .post-content, .posts .post-teaser, .site-footer {
       padding: 7.5% 12.5%; } }
   @media (max-width: 576px) {
     article,
-    .comments, .feature-image .post-content, .call-out, .posts .post-teaser, .site-footer {
+    .comments, .feature-image .post-content, .posts .post-teaser, .site-footer {
       padding: 5%; } }
 
 .button {
@@ -828,6 +828,7 @@ header h1 {
       color: rgba(255, 255, 255, 0.7); }
 
 .call-out {
+  padding: 1.3%;
   display: inline-block;
   width: 100%;
   background-image: linear-gradient(to right top, #30c299, #5bce9c, #7bd9a0, #98e5a5, #b3f0ac);
@@ -836,8 +837,10 @@ header h1 {
   text-align: center;
   color: #FFFFFF; }
 
-.call-out figure {
-  text-align: center; }
+.call-out img {
+  display: block;
+  max-width: 400px;
+  margin: 0 auto; }
 
 .call-out p:last-child {
   margin-bottom: 0; }
