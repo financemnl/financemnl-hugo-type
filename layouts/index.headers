@@ -6,7 +6,7 @@
   Cache-Control: public, max-age=360000
 
   Link: </styles.css>; rel=preload; as=stylesheet
-  Link: <img/avatar.png>; rel=preload; as=image
+  Link: </avatar.png>; rel=preload; as=image
 
 /
-  Link: <img/header.png>; rel=preload; as=image
+  Link: </header.png>; rel=preload; as=image
