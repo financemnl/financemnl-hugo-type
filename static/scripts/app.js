@@ -1,4 +1,3 @@
-// Netlify-CMS
 if (window.netlifyIdentity) {
   window.netlifyIdentity.on("init", user => {
     if (!user) {
