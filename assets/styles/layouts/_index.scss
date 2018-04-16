@@ -10,9 +10,14 @@
   color: $header-desc-text-color;
 }
 
+.call-out figure {
+  text-align: center;
+  width: 40%;
+}
+
 .call-out img {
-  width: 432px;
-  height: 144px;
+  width: 100%;
+  height: auto;
 }
 
 .call-out p:last-child {
