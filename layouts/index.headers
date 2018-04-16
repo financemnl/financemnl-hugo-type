@@ -5,4 +5,4 @@
   Referrer-Policy: origin-when-cross-origin
   Cache-Control: public, max-age=360000
 
-  Link: </styles.css>; rel=preload; as=stylesheet
+  Link: <css/styles.css>; rel=preload; as=stylesheet
