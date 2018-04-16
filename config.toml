@@ -1,7 +1,7 @@
 baseurl = "/"
+url = "https://financemnl.com/"
 languageCode = "en-us"
 title = "FinanceMNL"
-
 paginate = 5
 enableRobotsTXT = true
 canonifyURLs = true
@@ -23,12 +23,12 @@ googleAnalytics = "UA-117242242-1"
 	description = "A Filipino Millennial's Approach on Personal Finance."
 	# The keywords will be added as a meta tag. Delimit them with a comma.
 	keywords = "finance,personal finance,ph personal finance,personal finance philippines,finance ph"
-	avatar = "img/avatar.png"
+	avatar = "images/avatar.png"
 	GraphCommentId = "FinanceMNL"
 	headerText = "A Filipino Millennial's Approach on Personal Finance."
 	# To add a header background to the main site, save your image under static/img/header.png.
 	# If now image path is provided, a orange background will be shown instead.
-  headerimage = "img/header.png"
+  headerimage = "images/header.png"
 	copyright = "Released under the [MIT license](https://opensource.org/licenses/MIT)<br>Powered by [Hugo](//gohugo.io/). Theme based on [Hugo-Type](https://github.com/andygrunwald/hugo-type-theme#this-is-a-fork) and [Decode](https://www.machothemes.com/theme/decode/).<br>Source on [Github](https://github.com/financemnl/financemnl.com)"
 
   [params.social]
