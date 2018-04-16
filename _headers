@@ -1,0 +1,3 @@
+/server-push-path
+  Link: </scripts/app.js>; rel=preload; as=script
+  Link: </styles/styles.css>; rel=preload; as=style
