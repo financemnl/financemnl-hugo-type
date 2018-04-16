@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "FinanceMNL"
 paginate = 5
 enableRobotsTXT = true
+disableAliases = true
 canonifyURLs = true
 googleAnalytics = "UA-117242242-1"
 
