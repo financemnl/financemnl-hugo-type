@@ -4,6 +4,6 @@
   X-Content-Type-Options: nosniff
   Content-Security-Policy: script-src 'sha256-HashDigestHere='
   Content-Security-Policy-Report-Only: default-src https: 'unsafe-inline' 'unsafe-eval'
-  Referrer-Policy: strict-origin-when-cross-origin
+  Referrer-Policy: origin-when-cross-origin
 
   Link: <styles/styles.css>; rel=preload; as=stylesheet
