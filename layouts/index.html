@@ -1,0 +1,36 @@
+	{{ partial "head.html" . }}
+	<body>
+		{{ partial "nav.html" . }}
+
+		<div class="content">
+			<div class="home">
+
+				{{ if .Site.Params.headerText }}
+				<div class="call-out">
+					  <img src="/img/header.png" alt="FinanceMNL" align="middle"/>
+						<figcaption>
+					   {{ .Site.Params.headerText | markdownify }}
+					  </figcaption>
+				</div>
+				{{ end }}
+
+				{{ partial "post-list.html" . }}
+				{{ partial "pagination.html" . }}
+
+				{{ partial "footer.html" . }}
+
+			</div>
+		</div>
+		<script>
+			if (window.netlifyIdentity) {
+				window.netlifyIdentity.on("init", user => {
+					if (!user) {
+						window.netlifyIdentity.on("login", () => {
+							document.location.href = "/admin/";
+						});
+					}
+				});
+			}
+		</script>
+	</body>
+</html>

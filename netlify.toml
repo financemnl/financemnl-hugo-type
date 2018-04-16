@@ -1,0 +1,3 @@
+[build]
+  command = "hugo && hugulp build"
+  publish = "public"
