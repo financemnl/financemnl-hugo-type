@@ -5,7 +5,7 @@ tags:
   - guide
   - wiki
 date: '2018-04-13'
-featureimage: img/uploads/books-924780_1920.jpg
+featureimage: /images/uploads/books-924780_1920.jpg
 ---
 # Introduction to handling your own money
 
