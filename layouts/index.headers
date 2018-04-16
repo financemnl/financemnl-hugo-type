@@ -3,3 +3,7 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Referrer-Policy: origin-when-cross-origin
+
+  Link: <styles/styles.css>; rel=preload; as=stylesheet
+  Link: <img/avatar.jpg>; rel=preload; as=image
+  Link: <img/header.jpg>; rel=preload; as=image
