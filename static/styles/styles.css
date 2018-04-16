@@ -839,7 +839,8 @@ header h1 {
 
 .call-out img {
   display: block;
-  max-width: 400px;
+  max-width: 369px;
+  max-height: 123px;
   margin: 0 auto; }
 
 .call-out p:last-child {
