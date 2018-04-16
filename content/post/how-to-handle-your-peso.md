@@ -2,16 +2,16 @@
 title: How to Handle Your Peso
 tags:
   - finance
-  - guide
-  - wiki
+  - money
+categories:
+  - personal finance
+  - common
 date: '2018-04-13'
 featureimage: /images/uploads/books-924780_1920.jpg
 ---
-# Introduction to handling your own money
+## Introduction to handling your own money
 
 Congratulations! Whether you've just landed your first job or you just realized that the way you've been managing your finances isn't working, know that you're doing the right thing by seeking guidance. 
-
-flksmslg 
 
 This is meant as a step by step guide of how to prioritize and what to do with money. The steps are meant to be followed in order. You can always come back here once you're done with Step X.
 
