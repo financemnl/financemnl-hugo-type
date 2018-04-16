@@ -30,6 +30,7 @@ googleAnalytics = "UA-117242242-1"
 	headerText = "A Filipino Millennial's Approach on Personal Finance."
   headerImage = "/images/header.png"
 	copyright = "Released under the [MIT license](https://opensource.org/licenses/MIT)<br>Powered by [Hugo](//gohugo.io/). Theme based on [Hugo-Type](https://github.com/andygrunwald/hugo-type-theme#this-is-a-fork) and [Decode](https://www.machothemes.com/theme/decode/).<br>Source on [Github](https://github.com/financemnl/financemnl.com)"
+  socialShare = true
 
   [params.social]
   	# Insert your accout name and the icon will be shown in the right menu
