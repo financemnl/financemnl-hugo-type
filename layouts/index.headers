@@ -6,4 +6,4 @@
   Content-Security-Policy-Report-Only: default-src https: 'unsafe-inline' 'unsafe-eval'
   Referrer-Policy: strict-origin-when-cross-origin
 
-  Link: <css/styles.css>; rel=preload; as=stylesheet
+  Link: <styles/styles.css>; rel=preload; as=stylesheet
