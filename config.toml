@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://www.financemnl.com/"
 url = "https://www.financemnl.com/"
 languageCode = "en-us"
 title = "FinanceMNL"
