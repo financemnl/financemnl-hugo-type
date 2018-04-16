@@ -1,4 +1,4 @@
-baseurl = "https://financemnl.com/"
+baseurl = "https://www.financemnl.com/"
 languageCode = "en-us"
 title = "FinanceMNL"
 paginate = 5
