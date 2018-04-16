@@ -3,6 +3,6 @@
   X-XSS-Protection: 1; mode=block
   X-Content-Type-Options: nosniff
   Content-Security-Policy-Report-Only: default-src https: 'unsafe-inline' 'unsafe-eval'
-  Referrer-Policy: origin-when-cross-origin
+  Referrer-Policy: strict-origin-when-cross-origin
 
   Link: <css/styles.css>; rel=preload; as=stylesheet
