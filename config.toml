@@ -1,11 +1,9 @@
-baseurl = "/"
-url = "https://www.financemnl.com/"
+baseurl = "https://financemnl.com/"
 languageCode = "en-us"
 title = "FinanceMNL"
 paginate = 5
 enableRobotsTXT = true
 canonifyURLs = true
-disableAliases = true
 googleAnalytics = "UA-117242242-1"
 
 [sitemap]
@@ -13,22 +11,24 @@ googleAnalytics = "UA-117242242-1"
     priority = 0.5
 
 [permalinks]
-    post = "post/:slug/"
+    post = "/:slug/"
+    page = "/:slug/"
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
 
 [params]
 	author = "Niko Jaro"
 	authortwitter = "FinanceMNL"
-	#og_image = "http://www.change-gear.com/wp-content/uploads/2015/05/Big-journeys.jpg"
-	#og_image_url = "http://www.change-gear.com/wp-content/uploads/2015/05/Big-journeys.jpg"
 	description = "A Filipino Millennial's Approach on Personal Finance."
 	# The keywords will be added as a meta tag. Delimit them with a comma.
 	keywords = "finance,personal finance,ph personal finance,personal finance philippines,finance ph"
-	avatar = "images/avatar.png"
+	avatar = "/images/avatar.png"
 	GraphCommentId = "FinanceMNL"
 	headerText = "A Filipino Millennial's Approach on Personal Finance."
-	# To add a header background to the main site, save your image under static/img/header.png.
-	# If now image path is provided, a orange background will be shown instead.
-  headerImage = "images/header.png"
+  headerImage = "/images/header.png"
+  stylesheetURL = "/css/styles.css"
 	copyright = "Released under the [MIT license](https://opensource.org/licenses/MIT)<br>Powered by [Hugo](//gohugo.io/). Theme based on [Hugo-Type](https://github.com/andygrunwald/hugo-type-theme#this-is-a-fork) and [Decode](https://www.machothemes.com/theme/decode/).<br>Source on [Github](https://github.com/financemnl/financemnl.com)"
 
   [params.social]
