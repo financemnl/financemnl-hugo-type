@@ -9,6 +9,12 @@
   text-align: center;
   color: $header-desc-text-color;
 }
+
+.call-out img {
+  width: 80%;
+  height: auto;
+}
+
 .call-out p:last-child {
   margin-bottom: 0;
 }
