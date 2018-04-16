@@ -4,6 +4,6 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: origin-when-cross-origin
 
-  Link: <styles.css>; rel=preload; as=stylesheet
+  Link: </styles.css>; rel=preload; as=stylesheet
   Link: <img/avatar.png>; rel=preload; as=image
   Link: <img/header.png>; rel=preload; as=image
