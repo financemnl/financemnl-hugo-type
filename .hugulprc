@@ -13,7 +13,7 @@
     "scripts": "scripts"
   },
   "watch": {
-    "source": "static",
+    "source": "assets",
     "target": "static"
   },
   "build": {
