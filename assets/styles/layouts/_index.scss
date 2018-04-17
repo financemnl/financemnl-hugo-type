@@ -3,18 +3,16 @@
   padding: 1.45%;
   display: inline-block;
   width: 100%;
-  max-height: 100%;
   background-image: linear-gradient(to right top, #30c299, #5bce9c, #7bd9a0, #98e5a5, #b3f0ac);
   background-size: cover;
-  text-align: center;
   color: $header-desc-text-color;
 }
 
-.call-out img {
-  display: inline-block;
-  max-width: 23%;
+.call-out figure {
+  display: block;
   max-height: 100%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .call-out figcaption {
