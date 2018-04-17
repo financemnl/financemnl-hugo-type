@@ -3,9 +3,10 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  name: title
-  label: Title
-  description: Title
+  name: description
+  label: Description
+  description: This will be used as OG Description for Facebook/Twitter cards. This
+    will also show in Google Searches.
   config:
     required: true
 - type: datetime
@@ -15,13 +16,6 @@ fields:
   label: Date
   name: date
   description: Date of post.
-- type: text
-  name: description
-  label: Description
-  description: This will be used as OG Description for Facebook/Twitter cards. This
-    will also show in Google Searches.
-  config:
-    required: true
 - name: tags
   label: Tags
   type: tag_list
@@ -33,15 +27,7 @@ fields:
   type: tag_list
   hidden: false
   default: []
-- name: featureimage
-  label: Featureimage
-  type: text
-  hidden: false
-  default: ''
-  description: This will also be used as OG Image for Facebook/Twitter Cards.
-- name: menu
-  label: Menu
-  type: text
-  hidden: true
-  default: ''
-  description: Set a path if you want to link it to the nav bar.
+- type: file
+  name: featureimage
+  label: Feature Image
+  description: Feature image of post.
