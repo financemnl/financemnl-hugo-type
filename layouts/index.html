@@ -7,12 +7,10 @@
 
 				{{ if .Site.Params.headerText }}
 				<div class="call-out">
-					<figure>
 					  <img src="{{ .Site.Params.headerImage }}" alt="FinanceMNL" align="middle"/>
-							<figcaption>
+							<caption>
 					   {{ .Site.Params.headerText | markdownify }}
-					  </figcaption>
-					</figure>
+					 </caption>
 				</div>
 				{{ end }}
 
