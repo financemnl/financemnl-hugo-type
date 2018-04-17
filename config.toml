@@ -3,6 +3,9 @@ canonifyURLs = true
 disableAliases = true
 enableRobotsTXT = true
 googleAnalytics = "UA-117242242-1"
+languageCode = "en-US"
+paginate = 5
+title = "FinanceMNL"
 
 [sitemap]
     changefreq = "weekly"
@@ -43,11 +46,6 @@ googleAnalytics = "UA-117242242-1"
 home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
 
 # remove .{ext} from text/netlify
-=======
-languageCode = "en-US"
-paginate = 5
-title = "FinanceMNL"
->>>>>>> 5d29c8603e7f31ef1e03603b9d8f73e25c6a4c89
 [mediaTypes."text/netlify"]
 delimiter = ""
 suffix = ""
@@ -83,7 +81,6 @@ instagram = ""
 rss = true
 twitter = "financemnl"
 [permalinks]
-page = "/:slug/"
 post = "/:slug/"
 [sitemap]
 changefreq = "weekly"
