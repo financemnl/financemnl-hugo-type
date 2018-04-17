@@ -3,8 +3,6 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<!--SEO Optimizations-->
-	{{ partial "seo-schema.html" . }}
 
 	<title>{{ .Title}}{{ if not .IsHome }}&middot; {{ .Site.Title }}{{ end }}</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,6 +29,4 @@
 
 	{{ "<!-- Google Fonts -->" | safeHTML }}
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet" type="text/css" media="all">
-
-	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
