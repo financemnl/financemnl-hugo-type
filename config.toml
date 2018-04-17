@@ -20,7 +20,7 @@ title = "FinanceMNL"
     tag = "tags"
 
 [params]
-	author = "Niko Jaro"
+	author = "FinanceMNL"
 	authortwitter = "FinanceMNL"
 	description = "A Filipino Millennial's Approach on Personal Finance."
 	# The keywords will be added as a meta tag. Delimit them with a comma.
@@ -59,32 +59,3 @@ baseName = "_redirects"
 isPlainText = true
 mediatype = "text/netlify"
 notAlternative = true
-[outputs]
-home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
-[params]
-author = "Niko Jaro"
-authortwitter = "FinanceMNL"
-avatar = "/images/avatar.png"
-copyright = "Released under the [MIT license](https://opensource.org/licenses/MIT)<br>Powered by [Hugo](//gohugo.io/). Theme based on [Hugo-Type](https://github.com/andygrunwald/hugo-type-theme#this-is-a-fork) <br>Source on [Github](https://github.com/financemnl/financemnl.com) <br> [Sitemap](https://financemnl.com/sitemap)"
-description = "A Filipino Millennial's Approach on Personal Finance."
-graphcommentid = "FinanceMNL"
-headerimage = "/images/header.png"
-headertext = "A Filipino Millennial's Approach on Personal Finance."
-keywords = "finance,personal finance,ph personal finance,personal finance philippines,finance ph"
-socialshare = true
-[params.social]
-email = ""
-facebook = "FinanceMNL"
-github = ""
-homepage = true
-instagram = ""
-rss = true
-twitter = "financemnl"
-[permalinks]
-post = "/:slug/"
-[sitemap]
-changefreq = "weekly"
-priority = 0.5
-[taxonomies]
-category = "categories"
-tag = "tags"
