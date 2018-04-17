@@ -828,7 +828,7 @@ header h1 {
       color: rgba(255, 255, 255, 0.7); }
 
 .call-out {
-  padding: 1rem 2rem;
+  padding: 1%;
   display: inline-block;
   width: 100%;
   background-image: linear-gradient(to right top, #30c299, #5bce9c, #7bd9a0, #98e5a5, #b3f0ac);

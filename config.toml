@@ -3,7 +3,6 @@ canonifyURLs = true
 disableAliases = true
 enableRobotsTXT = true
 googleAnalytics = "UA-117242242-1"
-<<<<<<< HEAD
 
 [sitemap]
     changefreq = "weekly"
