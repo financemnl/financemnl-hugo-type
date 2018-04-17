@@ -2,16 +2,12 @@
 hide_body: false
 is_partial: false
 fields:
-- name: draft
-  label: Draft
-  type: boolean
-  hidden: false
-  default: true
 - name: tags
   label: Tags
   type: tag_list
   hidden: false
   default: []
+  description: Tags that will also be used for keywords (auto generated)
 - name: categories
   label: Categories
   type: tag_list
@@ -28,3 +24,11 @@ fields:
   type: text
   hidden: true
   default: ''
+  description: Set a path if you want to link it to the nav bar.
+- type: text
+  name: description
+  label: Description
+  description: This will be used as OG Description for Facebook/Twitter cards. This
+    will also show in Google Searches.
+  config:
+    required: true
