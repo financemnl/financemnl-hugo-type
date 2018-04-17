@@ -2,6 +2,19 @@
 hide_body: false
 is_partial: false
 fields:
+- type: text
+  name: title
+  label: Title
+  description: Title
+  config:
+    required: true
+- type: text
+  name: description
+  label: Description
+  description: This will be used as OG Description for Facebook/Twitter cards. This
+    will also show in Google Searches.
+  config:
+    required: true
 - name: tags
   label: Tags
   type: tag_list
@@ -25,10 +38,3 @@ fields:
   hidden: true
   default: ''
   description: Set a path if you want to link it to the nav bar.
-- type: text
-  name: description
-  label: Description
-  description: This will be used as OG Description for Facebook/Twitter cards. This
-    will also show in Google Searches.
-  config:
-    required: true
