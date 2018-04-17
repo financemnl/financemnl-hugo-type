@@ -8,6 +8,13 @@ fields:
   description: Title
   config:
     required: true
+- type: datetime
+  config:
+    required: true
+    date_format: "'2018-04-13'"
+  label: Date
+  name: date
+  description: Date of post.
 - type: text
   name: description
   label: Description
