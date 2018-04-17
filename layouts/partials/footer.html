@@ -2,11 +2,6 @@
 	<p class="text">&copy; {{ now.Format "2006" }} - {{ .Site.Params.copyright | markdownify }}</p>
 </footer>
 
-{{ "<!-- Font Awesome -->" | safeHTML }}
-<script defer src="scripts/fa-brands.min.js"></script>
-<script defer src="scripts/fa-solid.min.js"></script>
-<script defer src="scripts/fontawesome.min.js"></script>
-
 {{ partial "tracking.html" . }}
 
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
