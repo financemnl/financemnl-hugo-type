@@ -1,66 +1,51 @@
 baseurl = "https://financemnl.com/"
-languageCode = "en-US"
-title = "FinanceMNL"
-paginate = 5
-enableRobotsTXT = true
-disableAliases = true
 canonifyURLs = true
+disableAliases = true
+enableRobotsTXT = true
 googleAnalytics = "UA-117242242-1"
-
-[sitemap]
-    changefreq = "weekly"
-    priority = 0.5
-
-[permalinks]
-    post = "/:slug/"
-    page = "/:slug/"
-
-[taxonomies]
-    category = "categories"
-    tag = "tags"
-
-[params]
-	author = "Niko Jaro"
-	authortwitter = "FinanceMNL"
-	description = "A Filipino Millennial's Approach on Personal Finance."
-	# The keywords will be added as a meta tag. Delimit them with a comma.
-	keywords = "finance,personal finance,ph personal finance,personal finance philippines,finance ph"
-	avatar = "/images/avatar.png"
-	GraphCommentId = "FinanceMNL"
-	headerText = "A Filipino Millennial's Approach on Personal Finance."
-  headerImage = "/images/header.png"
-	copyright = "Released under the [MIT license](https://opensource.org/licenses/MIT)<br>Powered by [Hugo](//gohugo.io/). Theme based on [Hugo-Type](https://github.com/andygrunwald/hugo-type-theme#this-is-a-fork) and [Decode](https://www.machothemes.com/theme/decode/).<br>Source on [Github](https://github.com/financemnl/financemnl.com)"
-  socialShare = true
-
-  [params.social]
-  	# Insert your accout name and the icon will be shown in the right menu
-  		rss = true
-  		homepage = true
-  		email = ""
-  		facebook = "FinanceMNL"
-  		github = ""
-  		instagram = ""
-  		twitter = "financemnl"
-
-# add redirects/headers
-[outputs]
-home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
-
-# remove .{ext} from text/netlify
+languageCode = "en-US"
+paginate = 5
+title = "FinanceMNL"
 [mediaTypes."text/netlify"]
-suffix = ""
 delimiter = ""
-
-# add output format for netlify _redirects
-[outputFormats.REDIRECTS]
-mediatype = "text/netlify"
-baseName = "_redirects"
-isPlainText = true
-notAlternative = true
-
-# add output format for netlify _headers
+suffix = ""
 [outputFormats.HEADERS]
-mediatype = "text/netlify"
 baseName = "_headers"
 isPlainText = true
+mediatype = "text/netlify"
 notAlternative = true
+[outputFormats.REDIRECTS]
+baseName = "_redirects"
+isPlainText = true
+mediatype = "text/netlify"
+notAlternative = true
+[outputs]
+home = ["HTML", "RSS", "REDIRECTS", "HEADERS"]
+[params]
+author = "Niko Jaro"
+authortwitter = "FinanceMNL"
+avatar = "/images/avatar.png"
+copyright = "Released under the [MIT license](https://opensource.org/licenses/MIT)<br>Powered by [Hugo](//gohugo.io/). Theme based on [Hugo-Type](https://github.com/andygrunwald/hugo-type-theme#this-is-a-fork) and [Decode](https://www.machothemes.com/theme/decode/).<br>Source on [Github](https://github.com/financemnl/financemnl.com)"
+description = "A Filipino Millennial's Approach on Personal Finance."
+graphcommentid = "FinanceMNL"
+headerimage = "/images/header.png"
+headertext = "A Filipino Millennial's Approach on Personal Finance."
+keywords = "finance,personal finance,ph personal finance,personal finance philippines,finance ph"
+socialshare = true
+[params.social]
+email = ""
+facebook = "FinanceMNL"
+github = ""
+homepage = true
+instagram = ""
+rss = true
+twitter = "financemnl"
+[permalinks]
+page = "/:slug/"
+post = "/:slug/"
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
+[taxonomies]
+category = "categories"
+tag = "tags"
