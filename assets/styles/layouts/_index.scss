@@ -1,6 +1,6 @@
 // Header text feature, background image provided by Renan Barco.
 .call-out {
-  padding: 1.45%;
+  padding: 1%;
   display: inline-block;
   width: 100%;
   background-image: linear-gradient(to right top, #30c299, #5bce9c, #7bd9a0, #98e5a5, #b3f0ac);
@@ -10,14 +10,14 @@
 
 .call-out figure {
   display: block;
-  max-height: 100%;
-  font-size: 110%;
+  max-height: 80%;
+  font-size: 1em;
   margin: 0 auto;
   text-align: center;
 }
 
 .call-out img {
-  max-width: 80%;
+  max-height: 70%;
 }
 
 .call-out p:last-child {
