@@ -839,9 +839,12 @@ header h1 {
   font-size: 1em;
   display: block;
   margin: 0 auto;
-  max-width: 100%;
-  height: auto;
   text-align: center; }
+
+.call-out img {
+  max-width: 100%;
+  width: 21%;
+  height: auto; }
 
 .call-out p:last-child {
   margin-bottom: 0; }
