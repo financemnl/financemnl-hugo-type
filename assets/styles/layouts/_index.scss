@@ -10,10 +10,16 @@
 
 .call-out figure {
   display: block;
-  max-height: 80%;
+  padding: 0%;
   font-size: 1em;
   margin: 0 auto;
   text-align: center;
+}
+
+.call img {
+  max-width: 100%;
+  min-width: 300px;
+  height: auto;
 }
 
 .call-out p:last-child {
