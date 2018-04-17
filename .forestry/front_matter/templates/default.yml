@@ -22,6 +22,7 @@ fields:
   type: text
   hidden: false
   default: ''
+  description: This will also be used as OG Image for Facebook/Twitter Cards.
 - name: menu
   label: Menu
   type: text
