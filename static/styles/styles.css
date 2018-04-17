@@ -838,7 +838,7 @@ header h1 {
 .call-out figure {
   display: block;
   max-height: 100%;
-  font-size: 1.08em;
+  font-size: 110%;
   margin: 0 auto;
   text-align: center; }
 
