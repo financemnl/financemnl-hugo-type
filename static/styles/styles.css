@@ -828,19 +828,19 @@ header h1 {
       color: rgba(255, 255, 255, 0.7); }
 
 .call-out {
-  padding: 1.5%;
+  padding: 1.45%;
   display: inline-block;
   width: 100%;
   background-image: linear-gradient(to right top, #30c299, #5bce9c, #7bd9a0, #98e5a5, #b3f0ac);
   background-size: cover;
-  font-size: 1.18em;
+  font-size: 1.1em;
   text-align: center;
   color: #FFFFFF; }
 
 .call-out img {
   display: block;
-  max-width: 369px;
-  max-height: 123px;
+  max-width: 20%;
+  max-height: 20%;
   margin: 0 auto; }
 
 .call-out p:last-child {
