@@ -647,7 +647,7 @@ html {
 body {
   color: #383838;
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
-  font-size: 118%;
+  font-size: 1.25em;
   word-wrap: break-word; }
 
 h1, h2, h3, h4, h5, h6 {
@@ -828,7 +828,7 @@ header h1 {
       color: rgba(255, 255, 255, 0.7); }
 
 .call-out {
-  padding: 1.45%;
+  padding: 1em;
   display: inline-block;
   width: 100%;
   background-image: linear-gradient(to right top, #30c299, #5bce9c, #7bd9a0, #98e5a5, #b3f0ac);
@@ -836,10 +836,10 @@ header h1 {
   text-align: center;
   color: #FFFFFF; }
 
-.call-out img {
+.call-out figure {
   display: block;
-  max-width: 23%;
-  max-height: 23%;
+  max-width: 27%;
+  max-height: 70em;
   margin: 0 auto; }
 
 .call-out p:last-child {
