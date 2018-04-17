@@ -9,13 +9,14 @@
 }
 
 .call-out figure {
-    .img {
-      max-width: 0.8500em;
-    }
   display: block;
   max-height: 100%;
   margin: 0 auto;
   text-align: center;
+}
+
+.call-out img {
+  max-width: 23%;
 }
 
 .call-out figcaption {

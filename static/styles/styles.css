@@ -840,8 +840,9 @@ header h1 {
   max-height: 100%;
   margin: 0 auto;
   text-align: center; }
-  .call-out figure .img {
-    max-width: 0.8500em; }
+
+.call-out img {
+  max-width: 23%; }
 
 .call-out figcaption {
   font-size: 1em; }
