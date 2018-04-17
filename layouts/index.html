@@ -6,8 +6,8 @@
 			<div class="home">
 
 				{{ if .Site.Params.headerText }}
-				<div class="call-out">
-				 <figure>
+				<div class="call-out" width="device-width">
+				 <figure class="img-fluid">
 					  <img src="{{ .Site.Params.headerImage }}" width="432" height="144" alt="FinanceMNL" align="middle"/>
 							<figcaption>
 					   		{{ .Site.Params.headerText | markdownify }}

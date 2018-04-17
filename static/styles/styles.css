@@ -836,16 +836,11 @@ header h1 {
   color: #FFF; }
 
 .call-out figure {
-  display: block;
-  padding: 0%;
   font-size: 1em;
+  width: auto;
+  height: auto;
   margin: 0 auto;
   text-align: center; }
-
-.call img {
-  max-width: 100%;
-  min-width: 300px;
-  height: auto; }
 
 .call-out p:last-child {
   margin-bottom: 0; }
