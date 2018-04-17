@@ -821,7 +821,7 @@ header h1 {
     color: #fff; }
   .feature-image header {
     color: #fff;
-    background-size: cover;
+    background-size: auto;
     margin-bottom: 0;
     padding: 8% 20%; }
     .feature-image header .meta, .feature-image header #post-nav p, #post-nav .feature-image header p {
@@ -856,7 +856,7 @@ header h1 {
   width: 100%;
   margin-bottom: 0;
   display: inline-block;
-  background-size: cover;
+  background-size: auto;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
 
 .posts .excerpt {
