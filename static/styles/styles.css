@@ -837,9 +837,10 @@ header h1 {
 
 .call-out figure {
   font-size: 1em;
-  width: auto;
-  height: auto;
+  display: block;
   margin: 0 auto;
+  max-width: 100%;
+  height: auto;
   text-align: center; }
 
 .call-out p:last-child {
